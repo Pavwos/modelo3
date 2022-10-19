@@ -32,9 +32,6 @@ section{
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 363);
 }
 
-#radsex{
-    cursor: pointer;
-}
 
 #btn{
     background-color: #a09ad6;
@@ -148,7 +145,24 @@ a{
 		-moz-animation: cssload-spin 600ms infinite linear;
 }
 
-@media screen and (max-width: 440px){
+@media screen and (max-width: 440px){   
+    header{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 15px;
+    }
+    section{
+        display: flex;
+        flex-direction: column;
+        width: 250px;
+    }
+
+    #dados{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
 @keyframes cssload-spin {
