@@ -38,7 +38,7 @@ section{
     border: none;
     color: #383366;
     border-radius: 2px;
-    width: 80px;
+    width: auto;
     height: 40px;
     font-size: 17px;
     transition: 1s;
